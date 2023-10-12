@@ -28,7 +28,7 @@ function atualizarTexto(novoTexto) {
     description.textContent = novoTexto;
 }
 
-// Adiciona ouvintes de evento aos elementos dos itens
+// Adiciona EventListener de evento aos elementos dos itens
 for (const key in items) {
     if (items.hasOwnProperty(key)) {
         const item = items[key];
