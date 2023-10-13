@@ -92,6 +92,7 @@
     border-color: transparent;
     background-color: rgba(4, 4, 76, 0.683);
     font-family: KHMenu;
+    transition:0.2s;
 }
 
 .buttons:hover{
